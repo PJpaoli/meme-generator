@@ -1,0 +1,33 @@
+
+.newCard {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    border: 2px solid black;
+}
+
+.newCard img {
+    
+    width: 100%;
+    height: 100%;
+}
+
+.newCard .top {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    top: 15px;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+}
+
+.newCard .bottom {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    top: 150px;
+    color: white;
+    font-size: 2rem;
+}
